@@ -5,7 +5,7 @@ import streamlit as st
 from valuation import wacc, dcf
 
 st.set_page_config(page_title='DCF Stock Valuation',page_icon='💹',layout='wide')
-st.title('💹 DCF Stock Valuation Tool')
+st.title('DCF Stock Valuation Tool')
 st.caption('Unlevered free cash flow model • Enterprise to equity bridge • Sensitivity analysis')
 st.info('All values must use consistent units, e.g. ₹ crore for FCF, debt and cash; shares in crore. Example inputs are illustrative, not a real company valuation.')
 with st.sidebar:
